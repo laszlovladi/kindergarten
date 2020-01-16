@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box; 
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: white;
+    height: 2em;
+}
+
+#titlebox {
+    background-image: url('/img/banner.jpg');
+    width: 100vw;
+    background-size: cover;
+    padding: 2em 2em 2em 2em;
+    /* height: 100vh; */
+    /* background-position: center; */
+}
+
+#title {
+    font-size: 3em;
+    font-weight: 900;    
+    margin: 1em 0em 1em 4em;
+    color: white;
+    border-bottom: 5px solid white;
+    padding-bottom: 0.2em;
+    max-width: fit-content;
+    min-width: fit-content;
+}
+
+#title > span:nth-child(1) {
+    color: #FFE964;
+}
+
+#title > span:nth-last-child(3) {
+    color: #FF523D;
+}
+
+#title > span:last-child {
+    color: #223C88;
+}
+
+#mission {
+background-color: #FFE964;
+}
+
+#about {
+    background-color: #ffffff;
+}
+
+#team {
+background-color: #FF523D;
+}
+
+#contact {
+    background-color: #223C88;
+}
