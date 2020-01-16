@@ -1,10 +1,6 @@
 * {
     box-sizing: border-box; 
     margin: 0;
-}
-
-
-html {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -44,7 +40,7 @@ a:hover {
 #title {
     font-size: 3em;
     font-weight: 900;    
-    margin: 1em 0em 1em 4em;
+    margin: 1em auto 1em 25%;
     color: white;
     border-bottom: 5px solid white;
     padding-bottom: 0.2em;
@@ -85,9 +81,39 @@ h1 {
 }
 
 #team {
-background-color: #FF523D;
+    background-color: #FF523D;
+    color: white;
+    margin: 0;
+    padding: 10% 25%;
 }
 
 #contact {
     background-color: #223C88;
+    color: white;
+    margin: 0;
+    padding: 10% 25%;
+}
+
+#contact > div {
+    line-height: 1.5em;
+    font-weight: 700;
+}
+
+
+p {
+    line-height: 1.5em;
+}
+
+#teachers {
+    text-align: center;
+}
+
+#teachers > img {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#teachers > div {
+    font-weight: 700;
+    line-height: 1.5em;
 }
